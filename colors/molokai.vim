@@ -7,6 +7,8 @@
 " by Wimer Hazenberg and its darker variant
 " by Hamish Stuart Macpherson
 "
+" Fork: Gabriel Lievano <jglievano@gmail.com>
+"
 
 hi clear
 
@@ -30,7 +32,7 @@ endif
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
-hi String          guifg=#E6DB74
+hi String          guifg=#D6D85C
 hi Conditional     guifg=#F92672               gui=bold
 hi Constant        guifg=#AE81FF               gui=bold
 hi Cursor          guifg=#000000 guibg=#F8F8F0
@@ -147,7 +149,7 @@ if &t_Co > 255
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
    hi Number          ctermfg=135
-   hi String          ctermfg=144
+   hi String          ctermfg=184
    hi Conditional     ctermfg=161               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
    hi Cursor          ctermfg=16  ctermbg=253
